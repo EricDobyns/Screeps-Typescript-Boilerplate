@@ -10,7 +10,7 @@
 
 OR
 
-NOTE: You could also adjust the output directory in webpack.config.ts to the above to place the bundled main.js file on build.
+NOTE: You could also adjust the output directory in webpack.config.ts to the above location to update main.js.
 
 <br>
 
