@@ -1,0 +1,43 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "env": {
+		"es6": true,
+		"node": true
+	},
+    "rules": {
+        "indent": [
+            2,
+            "tab"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "quotes": [
+            2,
+            "backtick"
+        ],
+        "semi": [
+            2,
+            "never"
+        ],
+        "no-console": "off",
+        "no-control-regex": "off",
+        "no-unused-vars": "warn",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "no-mixed-spaces-and-tabs": "off"
+    }
+}

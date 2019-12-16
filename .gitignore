@@ -1,0 +1,41 @@
+# .gitignore
+
+# Environment Variables
+.env
+.env.*
+
+# Database
+data/
+
+# Certificates
+*.pem
+
+# Tests
+coverage/
+tests/newman/results
+
+# Logs
+*.log
+*.logs
+npm-debug.log*
+
+# Temporary Files
+*.tar
+*.swp
+
+# Build Files
+build/
+main.js
+main.js.map
+
+# Dependencies
+node_modules/
+
+# Cache
+.npm
+
+# Operating System
+.DS_Store
+
+# Editor
+.vscode/
